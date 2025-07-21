@@ -1,0 +1,11 @@
+/*9. Write a program to print the values in a collection using iter() method
+*/
+
+fn main() {
+    let numbers = vec![1, 2, 3, 4, 5];  // A collection (vector)
+
+    // Using the `iter()` method to iterate over the collection
+    for number in numbers.iter() {
+        println!("{}", number);
+    }
+}
